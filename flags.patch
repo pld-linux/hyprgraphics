@@ -1,0 +1,10 @@
+--- hyprgraphics-0.1.1/CMakeLists.txt.orig	2024-12-20 00:27:02.159131502 +0100
++++ hyprgraphics-0.1.1/CMakeLists.txt	2024-12-20 00:27:28.095045038 +0100
+@@ -26,7 +26,6 @@
+   message(STATUS "Configuring hyprgraphics in Debug")
+   add_compile_definitions(HYPRGRAPHICS_DEBUG)
+ else()
+-  add_compile_options(-O3)
+   message(STATUS "Configuring hyprgraphics in Release")
+ endif()
+ 
