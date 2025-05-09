@@ -1,12 +1,12 @@
 Summary:	Hyprland graphics / resource utilities
 Name:		hyprgraphics
-Version:	0.1.1
-Release:	4
+Version:	0.1.3
+Release:	1
 License:	BSD
 Group:		Libraries
 #Source0Download: https://github.com/hyprwm/hyprgraphics/releases
 Source0:	https://github.com/hyprwm/hyprgraphics/archive/v%{version}/%{name}-v%{version}.tar.gz
-# Source0-md5:	e7be69a12ad3954819f4599779862366
+# Source0-md5:	04bb071ced065d4dc3f5ec135ca80e87
 Patch0:		flags.patch
 URL:		https://hyprland.org/
 BuildRequires:	cairo-devel
@@ -15,6 +15,7 @@ BuildRequires:	hyprutils-devel
 BuildRequires:	libjpeg-devel
 BuildRequires:	libjxl-devel
 BuildRequires:	libmagic-devel
+BuildRequires:	libspng-devel
 BuildRequires:	libstdc++-devel >= 6:14
 BuildRequires:	libwebp-devel
 BuildRequires:	pixman-devel
